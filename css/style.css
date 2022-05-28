@@ -10,3 +10,13 @@
     margin-bottom: 10px;
     border-radius: 30px;
 }
+.link
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.link:hover
+{
+    color: black;
+}
