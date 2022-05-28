@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
+body
+{
+    font-family: 'Quantico', sans-serif;
+}
 .fakeimg
 {
     height: 200px;
@@ -9,6 +14,7 @@
     height: auto;
     margin-bottom: 10px;
     border-radius: 30px;
+    text-align: center;
 }
 .link
 {
@@ -19,4 +25,20 @@
 .link:hover
 {
     color: black;
+}
+.dropdown-item
+{
+    color: white;
+}
+.dropdown-item:hover,.nav-link:hover,.btn,.btn:hover
+{
+    background-color: #0499f2;
+    background-image: linear-gradient(315deg, #0499f2 0%, #26f596 74%);
+    color: white;
+    border-radius: 15px;
+}
+.p-5,.p-4
+{
+    background-color: #0499f2;
+    background-image: linear-gradient(315deg, #0499f2 0%, #26f596 74%);
 }
