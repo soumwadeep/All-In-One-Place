@@ -3,3 +3,10 @@
     height: 200px;
     background: #aaa;
 }
+.imgres
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
