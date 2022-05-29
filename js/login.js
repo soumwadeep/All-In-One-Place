@@ -31,7 +31,7 @@ signIn.addEventListener("click", (e) => {
     .then((userCredential) => {
       // Signed in
       const user = userCredential.user;
-      alert("Welcome : " + user.email + "! Now You Can Access Our Files!");
+      alert("Welcome : " + user.email + "! Now You Can Access Our Awesome Games And Tools!");
       window.location.href = "./index.html";
       // ...
     })
