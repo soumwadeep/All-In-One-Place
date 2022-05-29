@@ -1,121 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Login/Register</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="A Website Which Consists Of Almost All Features Required By An User"
-    />
-    <meta
-      name="keywords"
-      content="all in one,tech,tools,games,mathematical tools,science facts,quiz,todo,tasks"
-    />
-    <meta name="author" content="Soumwadeep Guha" />
-    <!-- Bootstrap V 5.1.3 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom Files -->
-    <link rel="icon" type="image/png" href="img/logoicont.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <script type="module" src="js/welcome.js "></script>
-  </head>
-  <body>
-    <div class="p-5 text-white text-center">
-      <h1>All In One Place</h1>
-      <p>- Login Or Register With Us -</p>
-    </div>
 
-    <nav class="navbar sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 200px"
-          >
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contents</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Games
-              </a>
-              <ul
-                class="dropdown-menu bg-dark"
-                aria-labelledby="navbarDropdown"
-              >
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="games/tic-tac-toe/tictactoe.html"
-                    >Tic-Tac-Toe</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider bg-light" /></li>
-                <li><a class="dropdown-item" href="#">Snake And Ladder</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Tools
-              </a>
-              <ul
-                class="dropdown-menu bg-dark"
-                aria-labelledby="navbarDropdown"
-              >
-                <li>
-                  <a class="dropdown-item" href="#">Scientific Calculator</a>
-                </li>
-                <li><hr class="dropdown-divider bg-light" /></li>
-                <li><a class="dropdown-item" href="#">Unit Converter</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-          </ul>
-          <p id="printuser" style="color:white;"></p>
-          <!-- <form class="d-flex">
+<head>
+  <title>Login/Register</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A Website Which Consists Of Almost All Features Required By An User" />
+  <meta name="keywords" content="all in one,tech,tools,games,mathematical tools,science facts,quiz,todo,tasks" />
+  <meta name="author" content="Soumwadeep Guha" />
+  <!-- Bootstrap V 5.1.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom Files -->
+  <link rel="icon" type="image/png" href="img/logoicont.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="module" src="js/welcome.js "></script>
+</head>
+
+<body>
+  <div class="p-5 text-white text-center">
+    <h1>All In One Place</h1>
+    <p>- Login Or Register With Us -</p>
+  </div>
+
+  <nav class="navbar sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contents</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Games
+            </a>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="games/tic-tac-toe/tictactoe.html">Tic-Tac-Toe</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider bg-light" />
+              </li>
+              <li><a class="dropdown-item" href="#">Snake And Ladder</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Tools
+            </a>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Scientific Calculator</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider bg-light" />
+              </li>
+              <li><a class="dropdown-item" href="#">Unit Converter</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="log" href="#"></a>
+          </li>
+        </ul>
+        <p id="printuser" style="color:white;"></p>
+        <!-- <form class="d-flex">
             <input
               class="form-control me-2 bg-dark text-white"
               type="search"
@@ -124,83 +86,74 @@
             />
             <button class="btn" type="submit">Search</button>
           </form> -->
-        </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-sm-4">
-          <h2>About Us</h2>
-          <h5>Our Logo:</h5>
-          <div class="imgres">
-            <img src="img/logofullt.png" alt="logo" class="imgres" />
-          </div>
-          <p>
-            A Website Which Consists Of Almost All Features Required By An User
-          </p>
-          <h3 class="mt-4">Some Links</h3>
-          <p>Our Most Popular Features:</p>
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <hr class="d-sm-none" />
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>About Us</h2>
+        <h5>Our Logo:</h5>
+        <div class="imgres">
+          <img src="img/logofullt.png" alt="logo" class="imgres" />
         </div>
-        <div class="col-sm-8">
-          <h2>LOGIN/REGISTER</h2>
-          <h5>Login/Register With Us To Use Our Awesome Games And Tools!</h5>
-          <div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                aria-describedby="emailHelp"
-              />
-              <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div>
+        <p>
+          A Website Which Consists Of Almost All Features Required By An User
+        </p>
+        <h3 class="mt-4">Some Links</h3>
+        <p>Our Most Popular Features:</p>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none" />
+      </div>
+      <div class="col-sm-8">
+        <h2>LOGIN/REGISTER</h2>
+        <h5>Login/Register With Us To Use Our Awesome Games And Tools!</h5>
+        <div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
-                >Password</label
-              >
-              <input type="password" class="form-control" id="password" />
-            </div>
-            <button style="float: left;border: 1px solid" class="btn" id="signIn">Login</button>
-            <button
-              style="float: left;border: 1px solid; margin-left: 10px"
-              class="btn"
-              id="signUp"
-            >
-              Register
-            </button>
           </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" />
+          </div>
+          <button style="float: left;border: 1px solid" class="btn" id="signIn">Login</button>
+          <button style="float: left;border: 1px solid; margin-left: 10px" class="btn" id="signUp">
+            Register
+          </button>
+          <button style="float: left;border: 1px solid; margin-left: 10px" class="btn" id="logOut">
+            Log Out
+          </button>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="mt-5 p-4 bg-success text-white text-center">
-      <p>Thank You For Visiting Us!</p>
-      <p>
-        Copyright 2022. All Rights Reserved By
-        <a href="https://allinoneplace.ml/" class="link">All In One Place</a> .
-      </p>
-    </div>
-    <script type="module" src="js/login.js"></script>
-  </body>
+  <div class="mt-5 p-4 bg-success text-white text-center">
+    <p>Thank You For Visiting Us!</p>
+    <p>
+      Copyright 2022. All Rights Reserved By
+      <a href="https://allinoneplace.ml/" class="link">All In One Place</a> .
+    </p>
+  </div>
+  <script type="module" src="js/login.js"></script>
+</body>
+
 </html>
