@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>All In One Place</title>
+    <title>Contact Us</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="A Website Which Consists Of Almost All Features Required By An User"
+      content="Get In Touch With All In One Place"
     />
     <meta
       name="keywords"
@@ -162,27 +162,36 @@
           <hr class="d-sm-none" />
         </div>
         <div class="col-sm-8">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2020</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>Some text..</p>
-          <p>
-            Sunt in culpa qui officia deserunt mollit anim id est laborum
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco.
-          </p>
-
-          <h2 class="mt-5">TITLE HEADING</h2>
-          <h5>Title description, Sep 2, 2020</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>Some text..</p>
-          <p>
-            Sunt in culpa qui officia deserunt mollit anim id est laborum
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco.
-          </p>
+          <h2>REACH US</h2>
+          <h5>Feel Free To Send Us Any Message Here:</h5>
+          <form action="https://formsubmit.co/soumwadeep@gmail.com" method="POST">
+            <!--Email Preferences-->
+            <div>
+              <input type="hidden" name="_subject" value="New Contact Form Submission On All In One Place!">
+              <input type="hidden" name="_template" value="table">
+              <!-- <input type="hidden" name="_autoresponse" value="We Have Received Your Message!We Will Soon Contact You!"> -->
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="sucmes()">
+              <!-- https://allinoneplace.ml/thanks.html -->
+            </div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name:</label>
+              <input type="text" class="form-control" name="name">
+            </div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Email:</label>
+              <input type="email" class="form-control" name="email">
+            </div>
+            <div class="mb-3">
+              <label for="mobile" class="form-label">Mobile No:</label>
+              <input type="tel" class="form-control" name="mobile">
+            </div>
+            <div class="mb-3">
+              <label for="message">Comments:</label>
+              <textarea class="form-control" name="message"></textarea>
+            </div>
+            <button type="submit" class="btn" style="border: 1px solid;">Submit</button>
+          </form>
         </div>
       </div>
     </div>
@@ -194,5 +203,11 @@
         <a href="https://allinoneplace.ml/" class="link">All In One Place</a> .
       </p>
     </div>
+    <script>
+        function sucmes()
+        {
+            alert("Message Sent!");
+        }
+    </script>
   </body>
 </html>
