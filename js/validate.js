@@ -28,7 +28,7 @@ onAuthStateChanged(auth, (user) => {
     // User is signed in, see docs for a list of available properties
     // https://firebase.google.com/docs/reference/js/firebase.User
     const uid = user.uid;
-    document.getElementById("printuser").innerHTML ="Hello! " + user.email;
+    document.getElementById("printuser").innerHTML ="Hello ! " + user.email;
     // alert("Welcome: " + user.email + "! Now You Can Access Our Files!");
     // ...
   } else {
