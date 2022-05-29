@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>All In One Place</title>
+    <title>Play Tic-Tac-Toe</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="A Website Which Consists Of Almost All Features Required By An User"
-    />
+    <meta name="description" content="Welcome To Our Tic-Tac-Toe Game" />
     <meta
       name="keywords"
       content="all in one,tech,tools,games,mathematical tools,science facts,quiz,todo,tasks"
@@ -19,25 +16,33 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Custom Files -->
-    <link rel="icon" type="image/png" href="img/logoicont.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://allinoneplace.ml/img/logoicont.png"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://allinoneplace.ml/css/style.css" />
+    <link rel="stylesheet" href="css/tictactoe.css" />
+    <script src="js/tictactoe.js"></script>
   </head>
+
   <body>
     <div class="p-5 text-white text-center">
       <h1>All In One Place</h1>
       <p>
-        - A Website Which Consists Of Almost All Features Required By An User -
+        - Welcome To Our Tic Tac Toe Game -
       </p>
     </div>
 
     <nav class="navbar sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="https://allinoneplace.ml/">Home</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -71,9 +76,14 @@
               >
                 Games
               </a>
-              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="games/tic-tac-toe/tictactoe.html">Tic-Tac-Toe</a></li>
-                <li><hr class="dropdown-divider bg-light"></li>
+              <ul
+                class="dropdown-menu bg-dark"
+                aria-labelledby="navbarDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Tic-Tac-Toe</a></li>
+                <li>
+                  <hr class="dropdown-divider bg-light" />
+                </li>
                 <li><a class="dropdown-item" href="#">Snake And Ladder</a></li>
               </ul>
             </li>
@@ -88,11 +98,16 @@
               >
                 Tools
               </a>
-              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <ul
+                class="dropdown-menu bg-dark"
+                aria-labelledby="navbarDropdown"
+              >
                 <li>
                   <a class="dropdown-item" href="#">Scientific Calculator</a>
                 </li>
-                <li><hr class="dropdown-divider bg-light"></li>
+                <li>
+                  <hr class="dropdown-divider bg-light" />
+                </li>
                 <li><a class="dropdown-item" href="#">Unit Converter</a></li>
               </ul>
             </li>
@@ -119,13 +134,19 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-sm-4">
-          <h2>About Us</h2>
-          <h5>Our Logo:</h5>
+          <h2>About Tic Tac Toe</h2>
+          <h5>
+            It's A 2 Player Game Made By Using Html,Css And Js In This Website.
+          </h5>
           <div class="imgres">
-            <img src="img/logofullt.png" alt="logo" class="imgres" />
+            <img src="img/tictactoe.png" alt="logo" class="imgres" />
           </div>
           <p>
-            A Website Which Consists Of Almost All Features Required By An User
+            Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil
+            game for two players who take turns marking the spaces in a
+            three-by-three grid with X or O. The player who succeeds in placing
+            three of their marks in a horizontal, vertical, or diagonal row is
+            the winner.
           </p>
           <h3 class="mt-4">Some Links</h3>
           <p>Our Most Popular Features:</p>
@@ -146,27 +167,89 @@
           <hr class="d-sm-none" />
         </div>
         <div class="col-sm-8">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2020</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>Some text..</p>
+          <h2>Play Now</h2>
+          <h5>Instructions:</h5>
           <p>
-            Sunt in culpa qui officia deserunt mollit anim id est laborum
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco.
+            Game Starts By Just <b>Tapping</b> On Box. <b>First Player</b> Starts As
+            <b>Player X</b>. And <b>Second Player</b> Starts As <b>Player O</b>.
           </p>
+          <center>
+            <h3>Let The Game Begins!!!</h3><br>
+            <!-- 3*3 grid of Boxes -->
+            <input
+              type="text"
+              id="b1"
+              onclick="myfunc_3(); myfunc();"
+              readonly
+            />
 
-          <h2 class="mt-5">TITLE HEADING</h2>
-          <h5>Title description, Sep 2, 2020</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>Some text..</p>
-          <p>
-            Sunt in culpa qui officia deserunt mollit anim id est laborum
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco.
-          </p>
+            <input
+              type="text"
+              id="b2"
+              onclick="myfunc_4(); myfunc();"
+              readonly
+            />
+
+            <input
+              type="text"
+              id="b3"
+              onclick="myfunc_5(); myfunc();"
+              readonly
+            />
+            <br /><br />
+
+            <input
+              type="text"
+              id="b4"
+              onclick="myfunc_6(); myfunc();"
+              readonly
+            />
+
+            <input
+              type="text"
+              id="b5"
+              onclick="myfunc_7(); myfunc();"
+              readonly
+            />
+
+            <input
+              type="text"
+              id="b6"
+              onclick="myfunc_8(); myfunc();"
+              readonly
+            />
+            <br /><br />
+
+            <input
+              type="text"
+              id="b7"
+              onclick="myfunc_9(); myfunc();"
+              readonly
+            />
+
+            <input
+              type="text"
+              id="b8"
+              onclick="myfunc_10();myfunc();"
+              readonly
+            />
+
+            <input
+              type="text"
+              id="b9"
+              onclick="myfunc_11();myfunc();"
+              readonly
+            />
+
+            <!-- Grid end here  -->
+            <br /><br /><br />
+            <!-- Button to reset game -->
+            <button id="but" onclick="myfunc_2()">RESET</button>
+
+            <br /><br />
+            <!-- Space to show player turn -->
+            <p id="print"></p>
+          </center>
         </div>
       </div>
     </div>
