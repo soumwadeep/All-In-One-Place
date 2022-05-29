@@ -37,7 +37,7 @@ onAuthStateChanged(auth, (user) => {
   }
 });
 // Sign Out
-logOut.addEventListener("click", (e) => {
+signOut.addEventListener("click", (e) => {
   signOut(auth)
     .then(() => {
       // Sign-out successful.
