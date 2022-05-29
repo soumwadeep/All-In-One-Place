@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>All In One Place</title>
+    <title>Login/Register</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
@@ -30,9 +30,7 @@
   <body>
     <div class="p-5 text-white text-center">
       <h1>All In One Place</h1>
-      <p>
-        - A Website Which Consists Of Almost All Features Required By An User -
-      </p>
+      <p>- Login Or Register With Us -</p>
     </div>
 
     <nav class="navbar sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
@@ -112,7 +110,7 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
+              <a class="nav-link" href="#">Login</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -158,27 +156,38 @@
           <hr class="d-sm-none" />
         </div>
         <div class="col-sm-8">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2020</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>Some text..</p>
-          <p>
-            Sunt in culpa qui officia deserunt mollit anim id est laborum
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco.
-          </p>
-
-          <h2 class="mt-5">TITLE HEADING</h2>
-          <h5>Title description, Sep 2, 2020</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>Some text..</p>
-          <p>
-            Sunt in culpa qui officia deserunt mollit anim id est laborum
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco.
-          </p>
+          <h2>LOGIN/REGISTER</h2>
+          <h5>Login/Register With Us To Use Our Awesome Games And Tools!</h5>
+          <div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <button style="float: left" class="btn" id="signIn">Login</button>
+            <button
+              style="float: left; margin-left: 10px"
+              class="btn"
+              id="signUp"
+            >
+              Register
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -190,5 +199,6 @@
         <a href="https://allinoneplace.ml/" class="link">All In One Place</a> .
       </p>
     </div>
+    <script type="module" src="js/login.js"></script>
   </body>
 </html>

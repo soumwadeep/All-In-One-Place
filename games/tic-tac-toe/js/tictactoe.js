@@ -19,7 +19,8 @@ function myfunc() {
     (b2 == "x" || b2 == "X") &&
     (b3 == "x" || b3 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player X ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player X ! You Have Won This Game !!";
     document.getElementById("b4").disabled = true;
     document.getElementById("b5").disabled = true;
     document.getElementById("b6").disabled = true;
@@ -32,7 +33,8 @@ function myfunc() {
     (b4 == "x" || b4 == "X") &&
     (b7 == "x" || b7 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player X ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player X ! You Have Won This Game !!";
     document.getElementById("b2").disabled = true;
     document.getElementById("b3").disabled = true;
     document.getElementById("b5").disabled = true;
@@ -46,7 +48,8 @@ function myfunc() {
     (b8 == "x" || b8 == "X") &&
     (b9 == "x" || b9 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player X ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player X ! You Have Won This Game !!";
     document.getElementById("b1").disabled = true;
     document.getElementById("b2").disabled = true;
     document.getElementById("b3").disabled = true;
@@ -59,7 +62,8 @@ function myfunc() {
     (b6 == "x" || b6 == "X") &&
     (b9 == "x" || b9 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player X ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player X ! You Have Won This Game !!";
     document.getElementById("b1").disabled = true;
     document.getElementById("b2").disabled = true;
     document.getElementById("b4").disabled = true;
@@ -72,7 +76,8 @@ function myfunc() {
     (b5 == "x" || b5 == "X") &&
     (b9 == "x" || b9 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player X ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player X ! You Have Won This Game !!";
     document.getElementById("b2").disabled = true;
     document.getElementById("b3").disabled = true;
     document.getElementById("b4").disabled = true;
@@ -85,7 +90,8 @@ function myfunc() {
     (b5 == "x" || b5 == "X") &&
     (b7 == "x" || b7 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player X ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player X ! You Have Won This Game !!";
     document.getElementById("b1").disabled = true;
     document.getElementById("b2").disabled = true;
     document.getElementById("b4").disabled = true;
@@ -98,7 +104,8 @@ function myfunc() {
     (b5 == "x" || b5 == "X") &&
     (b8 == "x" || b8 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player X ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player X ! You Have Won This Game !!";
     document.getElementById("b1").disabled = true;
     document.getElementById("b3").disabled = true;
     document.getElementById("b4").disabled = true;
@@ -111,7 +118,8 @@ function myfunc() {
     (b5 == "x" || b5 == "X") &&
     (b6 == "x" || b6 == "X")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player X ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player X ! You Have Won This Game !!";
     document.getElementById("b1").disabled = true;
     document.getElementById("b2").disabled = true;
     document.getElementById("b3").disabled = true;
@@ -129,7 +137,8 @@ function myfunc() {
     (b2 == "0" || b2 == "0") &&
     (b3 == "0" || b3 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player O ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player O ! You Have Won This Game !!";
     document.getElementById("b4").disabled = true;
     document.getElementById("b5").disabled = true;
     document.getElementById("b6").disabled = true;
@@ -142,7 +151,8 @@ function myfunc() {
     (b4 == "0" || b4 == "0") &&
     (b7 == "0" || b7 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player O ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player O ! You Have Won This Game !!";
     document.getElementById("b2").disabled = true;
     document.getElementById("b3").disabled = true;
     document.getElementById("b5").disabled = true;
@@ -155,7 +165,8 @@ function myfunc() {
     (b8 == "0" || b8 == "0") &&
     (b9 == "0" || b9 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player O ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player O ! You Have Won This Game !!";
     document.getElementById("b1").disabled = true;
     document.getElementById("b2").disabled = true;
     document.getElementById("b3").disabled = true;
@@ -168,7 +179,8 @@ function myfunc() {
     (b6 == "0" || b6 == "0") &&
     (b9 == "0" || b9 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player O ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player O ! You Have Won This Game !!";
     document.getElementById("b1").disabled = true;
     document.getElementById("b2").disabled = true;
     document.getElementById("b4").disabled = true;
@@ -181,7 +193,8 @@ function myfunc() {
     (b5 == "0" || b5 == "0") &&
     (b9 == "0" || b9 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player O ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player O ! You Have Won This Game !!";
     document.getElementById("b2").disabled = true;
     document.getElementById("b3").disabled = true;
     document.getElementById("b4").disabled = true;
@@ -194,7 +207,8 @@ function myfunc() {
     (b5 == "0" || b5 == "0") &&
     (b7 == "0" || b7 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player O ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player O ! You Have Won This Game !!";
     document.getElementById("b1").disabled = true;
     document.getElementById("b2").disabled = true;
     document.getElementById("b4").disabled = true;
@@ -207,7 +221,8 @@ function myfunc() {
     (b5 == "0" || b5 == "0") &&
     (b8 == "0" || b8 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player O ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player O ! You Have Won This Game !!";
     document.getElementById("b1").disabled = true;
     document.getElementById("b3").disabled = true;
     document.getElementById("b4").disabled = true;
@@ -220,7 +235,8 @@ function myfunc() {
     (b5 == "0" || b5 == "0") &&
     (b6 == "0" || b6 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Congratulations Player O ! You Have Won This Game !!";
+    document.getElementById("print").innerHTML =
+      "Congratulations Player O ! You Have Won This Game !!";
     document.getElementById("b1").disabled = true;
     document.getElementById("b2").disabled = true;
     document.getElementById("b3").disabled = true;
@@ -243,7 +259,8 @@ function myfunc() {
     (b8 == "X" || b8 == "0") &&
     (b9 == "X" || b9 == "0")
   ) {
-    document.getElementById("print").innerHTML = "Oops ! It's A Draw ! Well Played Both Of You !!";
+    document.getElementById("print").innerHTML =
+      "Oops ! It's A Draw ! Well Played Both Of You !!";
     window.alert("Oops ! It's A Draw ! Well Played Both Of You !!");
   } else {
     // Here, Printing Result

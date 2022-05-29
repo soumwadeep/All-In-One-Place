@@ -30,14 +30,16 @@
     <link rel="stylesheet" href="https://allinoneplace.ml/css/style.css" />
     <link rel="stylesheet" href="css/tictactoe.css" />
     <script src="js/tictactoe.js"></script>
+    <script
+      type="module"
+      src="https://allinoneplace.ml/js/validate.js"
+    ></script>
   </head>
 
   <body>
     <div class="p-5 text-white text-center">
       <h1>All In One Place</h1>
-      <p>
-        - Welcome To Our Tic Tac Toe Game -
-      </p>
+      <p>- Welcome To Our Tic Tac Toe Game -</p>
     </div>
 
     <nav class="navbar sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
@@ -115,7 +117,7 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link" href="#" id="signOut">Log Out</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -170,11 +172,13 @@
           <h2>Play Now</h2>
           <h5>Instructions:</h5>
           <p>
-            Game Starts By Just <b>Tapping</b> On Box. <b>First Player</b> Starts As
-            <b>Player X</b>. And <b>Second Player</b> Starts As <b>Player O</b>.
+            Game Starts By Just <b>Tapping</b> On Box.
+            <b>First Player</b> Starts As <b>Player X</b>. And
+            <b>Second Player</b> Starts As <b>Player O</b>.
           </p>
           <center>
-            <h3>Let The Game Begins!!!</h3><br>
+            <h3>Let The Game Begins!!!</h3>
+            <br />
             <!-- 3*3 grid of Boxes -->
             <input
               type="text"
