@@ -30,6 +30,7 @@ onAuthStateChanged(auth, (user) => {
     const uid = user.uid;
     document.getElementById("log").innerHTML ="Log Out";
     document.getElementById("printuser").innerHTML ="Hello ! " + user.email;
+    document.getElementById("logoutw").innerHTML ="Are You Sure You Want To Log Out? Then Click On The Log Out Button To Confirm.";
     // alert("Welcome: " + user.email + "! Now You Can Access Our Files!");
     // ...
   } else {
